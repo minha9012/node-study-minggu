@@ -20,7 +20,7 @@ function generatePrimes(start, range){
     }
 }
 
-console.time('prime');
+console.time('single prime');
 generatePrimes(min, max);
-console.timeEnd('prime');
+console.timeEnd('single prime');
 console.log(primes.length);
